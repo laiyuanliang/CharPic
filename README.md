@@ -1,5 +1,2 @@
 # CharPic
-Create char picture
-add second line in repository CharPic branch master README
-this is a new branch
-A LINE ADD IN COMMAND LINE
+this script is used to turn a picture(usually it should be cartoon picture) to char picture.
