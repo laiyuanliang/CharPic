@@ -1,0 +1,4 @@
+#!/bin/bash
+
+touch /tmp/jenkins_test.txt
+echo "test time 20230503" >>/tmp/jenkins_test.txt
