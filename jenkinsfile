@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo "this is first test 20230503" >>/tmp/jenkins_test.txt
+                sh 'touch /tmp/jenkins_test.txt'
+                echo "this is first test 20230503"
             }
         }
     }
