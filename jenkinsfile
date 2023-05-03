@@ -1,4 +1,10 @@
-#!/bin/bash
-
-touch /tmp/jenkins_test.txt
-echo "test time 20230503" >>/tmp/jenkins_test.txt
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo "this is first test 20230503" >>/tmp/jenkins_test.txt
+            }
+        }
+    }
+}
